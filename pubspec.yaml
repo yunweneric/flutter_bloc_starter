@@ -1,0 +1,51 @@
+name: waka_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  expandable: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_screenutil: ^5.7.0
+  flutter_staggered_animations: ^1.1.1
+  google_fonts: ^4.0.3
+  http: ^0.13.5
+  logger: ^1.3.0
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
